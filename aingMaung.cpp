@@ -13,5 +13,9 @@ class mahaiswa
 
 
 int main(){
-
+    mahaiswa *mhs = new mahaiswa{1}; 
+    mhs->nim = 2 ;
+    mhs->showNim();
+    delete mhs;
+    return 0;
 }
