@@ -26,16 +26,16 @@ class segitiga
 
 int main(){
     persegiPanjang pp;
-    segitiga sp;
+    segitiga s;
     cout << "masukan panjang : ";
     cin >> pp.panjang;
     cout << "masukan lebar : ";
     cin >> pp.lebar;
     cout << "masukan tinggi : ";
-    cin >> sp.tinggi;
+    cin >> s.tinggi;
     cout << "masukan alas : ";
-    cin >> sp.alas;
+    cin >> s.alas;
     cout << "luas persegi panjang : " << pp.luasPersegiPanjang(pp.panjang, pp.lebar) << endl;
-    cout << "luas segitiga : " << sp.luasSegitiga(sp.alas, sp.tinggi) << endl;
-    cout << "panjang persegi panjang : " << sp.hitung(pp) << endl;
+    cout << "luas segitiga : " << s.luasSegitiga(s.alas, s.tinggi) << endl;
+    cout << "panjang persegi panjang : " << s.hitung(pp) << endl;
 }
