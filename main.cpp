@@ -14,7 +14,7 @@ class segitiga
 {
     public:
     
-    int panjang, lebar;
+    int alas, tinggi;
     int luasPersegiPanjang(int b, int a){
         return a * b;
     }
