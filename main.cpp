@@ -12,7 +12,7 @@ class persgiPanjang
 };
 class segitiga
 {
-
+    public:
 };
 
 
