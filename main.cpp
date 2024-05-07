@@ -10,6 +10,10 @@ class persgiPanjang
         return a * b;
     }
 };
+class segitiga
+{
+
+};
 
 
 int main(){
